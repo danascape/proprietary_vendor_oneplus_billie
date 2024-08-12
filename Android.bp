@@ -227,13 +227,6 @@ dex_import {
 }
 
 dex_import {
-	name: "com.fingerprints.fpmmi",
-	owner: "oneplus",
-	jars: ["proprietary/vendor/framework/com.fingerprints.fpmmi.jar"],
-	soc_specific: true,
-}
-
-dex_import {
 	name: "com.android.hotwordenrollment.common.util",
 	owner: "oneplus",
 	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
