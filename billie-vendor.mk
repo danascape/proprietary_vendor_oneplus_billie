@@ -1095,10 +1095,10 @@ PRODUCT_PACKAGES += \
     CACertService \
     CneApp \
     IWlanService \
+    PowerOffAlarm \
     TimeService \
     com.oneplus.gpudrivers.kona.api30 \
     com.qualcomm.qti.gpudrivers.lito.api30 \
-    PowerOffAlarm \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
     NxpSecureElement \

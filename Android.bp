@@ -20491,6 +20491,17 @@ android_app_import {
 }
 
 android_app_import {
+    name: "PowerOffAlarm",
+    owner: "oneplus",
+    apk: "proprietary/vendor/app/PowerOffAlarm/PowerOffAlarm.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    soc_specific: true,
+}
+
+android_app_import {
     name: "TimeService",
     owner: "oneplus",
     apk: "proprietary/vendor/app/TimeService/TimeService.apk",
@@ -20523,17 +20534,6 @@ android_app_import {
         enabled: false,
     },
     soc_specific: true,
-}
-
-android_app_import {
-    name: "PowerOffAlarm",
-    owner: "oneplus",
-    apk: "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk",
-    certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
-    product_specific: true,
 }
 
 android_app_import {
